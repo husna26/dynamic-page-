@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="css/form.css">
+  <body>
+    <form>
+    <section>
+      <h2>Carrer Objectives</h2>
+      <select id="carrer">
+        <option>To work on company by using my skills</option>
+        <option>improve my skills</option>
+        <option>To work for implementing my skills</option>
+      </select>
+      <div class="main">
+        <section>
+          <h2>Personal info</h2>
+          <input type="text" name="name" id="name" placeholder="enter your name"><br>
+            <input type="email" name="email" id="email" placeholder="enter your email"><br>
+              <input type="text" name="role" id="role" placeholder="enter your designation"><br>
+                <input type="number" name="phone" id="phone" placeholder="enter your phone no."><br>
+        </section>
+        <section>
+          <h2>Graduation details</h2>
+          <input type="text" name="college1" id="college1" placeholder="enter your college name"><br>
+          <select name="degree1" id="degree1">
+              <option>Select your degree</option>
+            <option>B-Tech</option>
+            <option>B.sc</option>
+            <option>M-Tech</option>
+              <option>M-Sc</option>
+          </select><br>
+          <select name="branch1" id="branch1">
+            <option>Select your branch</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+              <option>IT</option>
+                <option>CSIT</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+          </select><br>
+            <input type="number" name="marks1" id="marks1" placeholder="enter your percentage"><br>
+        </section>
+      </div>
+      <div class="main">
+        <section>
+          <h2>Intermediate Details</h2>
+            <input type="text" name="college2" id="college2" placeholder="enter your college name"><br>
+            <select name="degree2" id="degree2">
+                <option>Select your degree</option>
+              <option>Intermediate</option>
+              <option>Diploma</option>
+            </select><br>
+            <select name="branch2" id="branch2">
+              <option>Select your branch</option>
+              <option>MPC</option>
+              <option>MEC</option>
+              <option>BiPc</option>
+                <option>CEC</option>
+                  <option>HEC</option>
+            </select><br>
+              <input type="number" name="marks2" id="marks2" placeholder="enter your percentage"><br>
+
+        </section>
+        <section>
+          <h2>SSC Details</h2>
+          <input type="text" name="college3" id="college3" placeholder="enter your school name"><br>
+          <select name="degree3" id="degree3">
+              <option>Select your degree</option>
+            <option>SSC</option>
+            <option>CBSE</option>
+          </select><br>
+        <input type="number" name="marks3" id="marks3" placeholder="enter your percentage"><br>
+        </section>
+
+
+      </div>
+      <section>
+        <h2>Technical skills</h2>
+          <input type="text" name="skills" id="skills" placeholder="enter your technical skills"><br>
+      </section>
+</form>
+<button type="button" name="button" onclick="addData()">SUBMIT</button>
+  </body>
+  <script type="text/javascript" src="js/store.js">
+
+  </script>
+</html>

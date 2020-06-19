@@ -1,0 +1,36 @@
+body{
+  background: #71289f;
+}
+.main{
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  width: 90%;
+}
+.main section{
+  width: 90%;
+  border: 2px solid white;
+  margin: 1%;
+  padding: 1%;
+}
+section{
+  background: pink;
+  text-align: center;
+}
+input,select{
+  width: 90%;
+  border: 2px solid skyblue;
+  margin: 1%;
+  padding: 1%;
+  display: block;
+
+}
+button{
+  width: 10%;
+  background: blue;
+  color: #ddd;
+margin: 1%;
+padding: 1%;
+font-size: 30px;
+font-style: italic;
+}

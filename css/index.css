@@ -1,0 +1,37 @@
+header{
+  background: #51c864;
+  text-align: center;
+  color:red;
+  font-size: 50px;
+  margin: 1%;
+  padding: 1%;
+  font-style: italic;
+  box-shadow: 2px 5px black;
+}
+a img{
+  width: 8%;
+  height:8%;
+  display: block;
+  margin:0 3% 0 auto;
+}
+.c img{
+
+  width:290px;
+  height:290px;
+}
+ .c{
+   background: pink;
+  text-align: center;
+display: flex;
+flex-direction: column;
+  border:2px solid pink;
+  width:20%;
+  margin:1%;
+  padding:1%;
+  box-shadow: 2px 5px black;
+
+}
+.p{
+  display: flex;
+
+}
